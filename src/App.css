@@ -1,33 +1,57 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.main{
+  height:100vh;
+  width: 100vw
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction:row;
+}
+.button-one{
+  display:flex;
+  align-items:center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex:1;
+  border-bottom:1px solid gray;
+  border-right:1px solid gray;
+  background-color:rgb(184, 184, 184);
 }
-
-.App-link {
-  color: #61dafb;
+.button-one-active{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex:1;
+  border-top:1px solid white;
+  background-color:#fa3b19;
+  border-bottom:rgb(93, 93, 93)
 }
+.input{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right:5%;
+  border:1px solid white;
+  flex:1;
+  background-color: rgb(37, 37, 37)
+}
+.button-two{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex:2;
+  background-color:rgb(184, 184, 184);
+  border-right:1px solid gray;
+}
+.label{
+  color:rgb(63, 63, 63);
+  font-size: 28px;
+}
+.label-operation{
+  color:rgb(255, 255, 255);
+  font-size: 28px;
+}
+.label-input{
+  color:white;
+  font-size: 28px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
